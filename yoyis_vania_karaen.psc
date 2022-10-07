@@ -37,6 +37,7 @@ definir A,B,C,X, N1,N2,N3,N4,N5,N6,N7,N8,N9,N10,TOTALSUMA,CANTIDAD,i, NUM  como 
 				para C=A hasta n con paso 1 hacer 
 					escribir x," " sin saltar
 				FinPara
+                                Fin para 
 				escribir ""
 			
               3:
@@ -194,8 +195,8 @@ definir A,B,C,X, N1,N2,N3,N4,N5,N6,N7,N8,N9,N10,TOTALSUMA,CANTIDAD,i, NUM  como 
 					Escribir "introduzca el número 9";
 					Leer N10;
 					Escribir "El resultado de la suma es de:", N1-N2-N3-N4-N5-N6-N7-N8-N9-N10;
-			FinSegun
-3: 	Escribir " Escribe del 2 al 10 cúantos numeros deseas multiplicar: ";
+			
+           3: 	Escribir " Escribe del 2 al 10 cúantos numeros deseas multiplicar: ";
 			Leer SELECCION;
 			segun SELECCION hacer 
 				2:
@@ -327,8 +328,9 @@ definir A,B,C,X, N1,N2,N3,N4,N5,N6,N7,N8,N9,N10,TOTALSUMA,CANTIDAD,i, NUM  como 
 					Escribir "introduzca el número 9";
 					Leer N10;
 					Escribir "El resultado de la multiplicación es de:", N1*N2*N3*N4*N5/N6*N7*N8*N9*N10;
-			FinSegun
-		4:Escribir " Escribe del 2 al 10 cúantos numeros deseas dividir: ";
+			
+		4:
+                      Escribir " Escribe del 2 al 10 cúantos numeros deseas dividir: ";
 			Leer SELECCION;
 			segun SELECCION hacer 
 				2:
@@ -460,7 +462,7 @@ definir A,B,C,X, N1,N2,N3,N4,N5,N6,N7,N8,N9,N10,TOTALSUMA,CANTIDAD,i, NUM  como 
 					Escribir "introduzca el número 9";
 					Leer N10;
 					Escribir "El resultado de la división es de:", N1/N2/N3/N4/N5/N6/N7/N8/N9/N10;
-			FinSegun
+			
 		5:  
 			 Escribir " Escribe del 2 al 10 cúantos numeros deseas elevar su potencia: ";
 			Leer SELECCION;
@@ -519,7 +521,7 @@ definir A,B,C,X, N1,N2,N3,N4,N5,N6,N7,N8,N9,N10,TOTALSUMA,CANTIDAD,i, NUM  como 
 					Escribir " introduzca el número 6";
 					leer N6;
 					Escribir "El resultado de la potencia es de:", N1*N1 " ", N2*N2 " ", N3*N3 " ", N4*N4 "",  N5*N5 " ", N6*N6 ;
-			    7: 
+			        7: 
 					Escribir " introduzca el número 1";
 					leer N1;
 					Escribir " introduzca el número 2";
@@ -596,13 +598,13 @@ definir A,B,C,X, N1,N2,N3,N4,N5,N6,N7,N8,N9,N10,TOTALSUMA,CANTIDAD,i, NUM  como 
 					leer N10;
 					Escribir "El resultado de la potencia es de:", N1*N1 " ", N2*N2 " ", N3*N3 " ", N4*N4 "",  N5*N5 " ", N6*N6 " " N7*N7 " ",N8*N8 " ", N9*N9, " ", N10*N10 ;
 					
-	fin segun 
-	FIN SEGUN 
-	
-FinAlgoritmo
 
+finsegun
+									finsegun
+                            finsegun						
+					finsegun 	
+			finsegun				
+	finsegun	
 
-			
-	FinSegun
-	
+    				
 FinAlgoritmo
