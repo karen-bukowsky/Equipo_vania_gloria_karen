@@ -53,14 +53,148 @@ definir A,B,C,X, N1,N2,N3,N4,N5,N6,N7,N8,N9,N10,TOTALSUMA,CANTIDAD,i, NUM  como 
 			escribir "¿Cúantos números deseas sumar?";
 			leer CANTIDAD;
 			i<- 1
-			mientras i<=CANTIDAD hacer 
+	            mientras i<=CANTIDAD hacer 
 				escribir "Ingrese el número: ", i;
 				leer NUM;
 				TOTALSUMA<-TOTALSUMA+NUM
 				i<-i+1
 				
-			FinMientras
+	           FinMientras
 			escribir " El resultado de la suma es de: ", TOTALSUMA; 
+
+               2: Escribir " Escribe del 2 al 10 cúantos numeros deseas restar: ";
+			Leer SELECCION;
+			segun SELECCION hacer 
+				2:
+					Escribir " introduzca el número 1";
+					leer N1;
+					Escribir "introduzca el número 2";
+					Leer N2;
+					Escribir "El resultado de la resta es de:", N1-N2;
+				3: 	
+					Escribir " introduzca el número 1";
+					leer N1;
+					Escribir "introduzca el número 2";
+					Leer N2;
+					Escribir "introduzca el número 2";
+					Leer N3;
+					Escribir "El resultado de la resta es de:", N1-N2-N3;
+				4: 
+					Escribir " introduzca el número 1";
+					leer N1;
+					Escribir "introduzca el número 2";
+					Leer N2;
+					Escribir "introduzca el número 3";
+					Leer N3;
+					Escribir "introduzca el número 4";
+					Leer N4;
+					Escribir "El resultado de la suma es de:", N1-N2-N3-N4;
+				5: 
+					Escribir " introduzca el número 1";
+					leer N1;
+					Escribir "introduzca el número 2";
+					Leer N2;
+					Escribir "introduzca el número 3";
+					Leer N3;
+					Escribir "introduzca el número 4";
+					Leer N4;
+					Escribir "introduzca el número 5";
+					Leer N5;
+					Escribir "El resultado de la suma es de:", N1-N2-N3-N4-N5;
+					
+				6:
+					Escribir " introduzca el número 1";
+					leer N1;
+					Escribir "introduzca el número 2";
+					Leer N2;
+					Escribir "introduzca el número 3";
+					Leer N3;
+					Escribir "introduzca el número 4";
+					Leer N4;
+					Escribir "introduzca el número 5";
+					Leer N5;
+					Escribir "introduzca el número 6";
+					Leer N6;
+					Escribir "El resultado de la suma es de:", N1-N2-N3-N4-N5-N6;
+				7:
+					Escribir " introduzca el número 1";
+					leer N1;
+					Escribir "introduzca el número 2";
+					Leer N2;
+					Escribir "introduzca el número 3";
+					Leer N3;
+					Escribir "introduzca el número 4";
+					Leer N4;
+					Escribir "introduzca el número 5";
+					Leer N5;
+					Escribir "introduzca el número 6";
+					Leer N6;
+					Escribir "introduzca el número 7";
+					Leer N7;
+					Escribir "El resultado de la suma es de:", N1-N2-N3-N4-N5-N6-N7;
+					
+				8: Escribir " introduzca el número 1";
+					leer N1;
+					Escribir "introduzca el número 2";
+					Leer N2;
+					Escribir "introduzca el número 3";
+					Leer N3;
+					Escribir "introduzca el número 4";
+					Leer N4;
+					Escribir "introduzca el número 5";
+					Leer N5;
+					Escribir "introduzca el número 6";
+					Leer N6;
+					Escribir "introduzca el número 7";
+					Leer N7;
+					Escribir "introduzca el número 8";
+					Leer N8;
+					
+					Escribir "El resultado de la suma es de:", N1-N2-N3-N4-N5-N6-N7-N8;
+					
+				9:	Escribir " introduzca el número 1";
+					leer N1;
+					Escribir "introduzca el número 2";
+					Leer N2;
+					Escribir "introduzca el número 3";
+					Leer N3;
+					Escribir "introduzca el número 4";
+					Leer N4;
+					Escribir "introduzca el número 5";
+					Leer N5;
+					Escribir "introduzca el número 6";
+					Leer N6;
+					Escribir "introduzca el número 7";
+					Leer N7;
+					Escribir "introduzca el número 8";
+					Leer N8;
+					Escribir "introduzca el número 9";
+					Leer N9;
+					Escribir "El resultado de la suma es de:", N1-N2-N3-N4-N5-N6-N7-N8-N9;
+					
+				10: 	
+					Escribir " introduzca el número 1";
+					leer N1;
+					Escribir "introduzca el número 2";
+					Leer N2;
+					Escribir "introduzca el número 3";
+					Leer N3;
+					Escribir "introduzca el número 4";
+					Leer N4;
+					Escribir "introduzca el número 5";
+					Leer N5;
+					Escribir "introduzca el número 6";
+					Leer N6;
+					Escribir "introduzca el número 7";
+					Leer N7;
+					Escribir "introduzca el número 8";
+					Leer N8;
+					Escribir "introduzca el número 9";
+					Leer N9;
+					Escribir "introduzca el número 9";
+					Leer N10;
+					Escribir "El resultado de la suma es de:", N1-N2-N3-N4-N5-N6-N7-N8-N9-N10;
+			FinSegun
 
 			
 	FinSegun
