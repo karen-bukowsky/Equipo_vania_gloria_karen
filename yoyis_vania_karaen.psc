@@ -1,13 +1,14 @@
 Algoritmo fubonacci_piramides_suma_resta_multiplicacion_division_potencia_
 
-definir ELECCION COMO ENTERO
+definir ELECCION, SELECCION  COMO ENTERO
 definir NM,Z,W,I ,P1, P2 COMO REAL
-definir A,B,C,X como REAL
-Escribir "Ingresa el numero del programa que quieres usar";
-escribir "1.FUBONACCI";
-escribir "2.PIRAMIDES";
-escribir "3.SUMA, RESTA, MULTIPLICACION, DIVISION y POTENCIA";
-leer ELECCION
+definir A,B,C,X, N1,N2,N3,N4,N5,N6,N7,N8,N9,N10,TOTALSUMA,CANTIDAD,i, NUM  como REAL
+
+      Escribir "Ingresa el numero del programa que quieres usar";
+      escribir "1.FUBONACCI";
+      escribir "2.PIRAMIDES";
+      escribir "3.SUMA, RESTA, MULTIPLICACION, DIVISION y POTENCIA";
+      leer ELECCION;
 	
 	
 	Segun ELECCION Hacer
