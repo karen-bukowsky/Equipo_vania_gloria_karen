@@ -1,27 +1,26 @@
 Algoritmo fubonacci_piramides_suma_resta_multiplicacion_division_potencia_
 
-definir eleccion como entero
-definir N,Z,W,HA ,P1, P2 Como Real
+definir ELECCION COMO ENTERO
+definir NM,Z,W,I ,P1, P2 COMO REAL
 definir A,B,C,X como REAL
 Escribir "Ingresa el numero del programa que quieres usar";
-escribir "1.Fubonacci";
-escribir "2.Piramides";
-escribir "3.Suma, Resta, Multiplicacion, Division y Potencia";
-leer eleccion
+escribir "1.FUBONACCI";
+escribir "2.PIRAMIDES";
+escribir "3.SUMA, RESTA, MULTIPLICACION, DIVISION y POTENCIA";
+leer ELECCION
 	
 	
-	Segun eleccion Hacer
+	Segun ELECCION Hacer
 		1:
-			// programa gloria 
 		  escribir "Ingresa un numero";
-			leer N;
+			leer NM;
 			Z=0;
 			W=1;
-			Mientras Z<=N Hacer
+			Mientras Z<=NM Hacer
 				escribir Z;
-				HA=Z+W;
+				I=Z+W;
 				Z=W;
-				W=HA;
+				W=I;
 				
 			Fin Mientras
               2:
