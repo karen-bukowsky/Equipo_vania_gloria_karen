@@ -40,7 +40,27 @@ definir A,B,C,X, N1,N2,N3,N4,N5,N6,N7,N8,N9,N10,TOTALSUMA,CANTIDAD,i, NUM  como 
 				escribir ""
 			
               3:
-                 //karen
+                 Escribir  "calculadora  ";
+	         Escribir  "elige la operacion que deseas hacer ";
+	         Escribir "1=Suma";
+	         Escribir "2=Resta";
+	         Escribir "3=Multiplicacion";
+	         Escribir "4=Division";
+	         Escribir "5=Potencia";
+                  leer SELECCION;
+	Segun SELECCION  Hacer
+		1:
+			escribir "¿Cúantos números deseas sumar?";
+			leer CANTIDAD;
+			i<- 1
+			mientras i<=CANTIDAD hacer 
+				escribir "Ingrese el número: ", i;
+				leer NUM;
+				TOTALSUMA<-TOTALSUMA+NUM
+				i<-i+1
+				
+			FinMientras
+			escribir " El resultado de la suma es de: ", TOTALSUMA; 
 
 			
 	FinSegun
