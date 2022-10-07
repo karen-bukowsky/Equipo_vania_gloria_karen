@@ -468,12 +468,13 @@ definir A,B,C,X, N1,N2,N3,N4,N5,N6,N7,N8,N9,N10,TOTALSUMA,CANTIDAD,i, NUM  como 
 				1:
 					Escribir " introduzca el número 1";
 					leer N1;
-					Escribir "El resultado de la multiplicación es de:", N1*N1;
+					Escribir "El resultado de la potencia  es de:", N1*N1;
+
 				2: 	Escribir " introduzca el número 1";
 					leer N1;
 					Escribir " introduzca el número 1";
 					leer N2;
-					Escribir "El resultado de la multiplicación es de:", N1*N1 " ", N2*N2;
+					Escribir "El resultado de la potencia es de:", N1*N1 " ", N2*N2;
 				3: 
 					Escribir " introduzca el número 1";
 					leer N1;
@@ -481,7 +482,7 @@ definir A,B,C,X, N1,N2,N3,N4,N5,N6,N7,N8,N9,N10,TOTALSUMA,CANTIDAD,i, NUM  como 
 					leer N2;
 					Escribir " introduzca el número 3";
 					leer N3;
-					Escribir "El resultado de la multiplicación es de:", N1*N1 " ", N2*N2 " ", N3*N3;
+					Escribir "El resultado de la potencia es de:", N1*N1 " ", N2*N2 " ", N3*N3;
 				4: 	
 					Escribir " introduzca el número 1";
 					leer N1;
@@ -491,7 +492,7 @@ definir A,B,C,X, N1,N2,N3,N4,N5,N6,N7,N8,N9,N10,TOTALSUMA,CANTIDAD,i, NUM  como 
 					leer N3;
 					Escribir " introduzca el número 4";
 					leer N4;
-					Escribir "El resultado de la multiplicación es de:", N1*N1 " ", N2*N2 " ", N3*N3 " ", N4*N4;
+					Escribir "El resultado de la potencia es de:", N1*N1 " ", N2*N2 " ", N3*N3 " ", N4*N4;
 				5:
 					Escribir " introduzca el número 1";
 					leer N1;
@@ -503,7 +504,8 @@ definir A,B,C,X, N1,N2,N3,N4,N5,N6,N7,N8,N9,N10,TOTALSUMA,CANTIDAD,i, NUM  como 
 					leer N4;
 					Escribir " introduzca el número 5";
 					leer N5;
-					Escribir "El resultado de la multiplicación es de:", N1*N1 " ", N2*N2 " ", N3*N3 " ", N4*N4 "",  N5*N5  ;
+					Escribir "El resultado de la potencia es de:", N1*N1 " ", N2*N2 " ", N3*N3 " ", N4*N4 "",  N5*N5  ;
+
 				6: Escribir " introduzca el número 1";
 					leer N1;
 					Escribir " introduzca el número 2";
@@ -516,7 +518,7 @@ definir A,B,C,X, N1,N2,N3,N4,N5,N6,N7,N8,N9,N10,TOTALSUMA,CANTIDAD,i, NUM  como 
 					leer N5;
 					Escribir " introduzca el número 6";
 					leer N6;
-					Escribir "El resultado de la multiplicación es de:", N1*N1 " ", N2*N2 " ", N3*N3 " ", N4*N4 "",  N5*N5 " ", N6*N6 ;
+					Escribir "El resultado de la potencia es de:", N1*N1 " ", N2*N2 " ", N3*N3 " ", N4*N4 "",  N5*N5 " ", N6*N6 ;
 			    7: 
 					Escribir " introduzca el número 1";
 					leer N1;
@@ -532,7 +534,7 @@ definir A,B,C,X, N1,N2,N3,N4,N5,N6,N7,N8,N9,N10,TOTALSUMA,CANTIDAD,i, NUM  como 
 					leer N6;
 					Escribir " introduzca el número 7";
 					leer N7;
-					Escribir "El resultado de la multiplicación es de:", N1*N1 " ", N2*N2 " ", N3*N3 " ", N4*N4 "",  N5*N5 " ", N6*N6 " " N7*N7 ;
+					Escribir "El resultado de la potencia es de:", N1*N1 " ", N2*N2 " ", N3*N3 " ", N4*N4 "",  N5*N5 " ", N6*N6 " " N7*N7 ;
 				8: 	
 					Escribir " introduzca el número 1";
 					leer N1;
@@ -550,7 +552,7 @@ definir A,B,C,X, N1,N2,N3,N4,N5,N6,N7,N8,N9,N10,TOTALSUMA,CANTIDAD,i, NUM  como 
 					leer N7;
 					Escribir " introduzca el número 8";
 					leer N8;
-					Escribir "El resultado de la multiplicación es de:", N1*N1 " ", N2*N2 " ", N3*N3 " ", N4*N4 "",  N5*N5 " ", N6*N6 " " N7*N7 " ",N8*N8 ;
+					Escribir "El resultado de la potencia es de:", N1*N1 " ", N2*N2 " ", N3*N3 " ", N4*N4 "",  N5*N5 " ", N6*N6 " " N7*N7 " ",N8*N8 ;
 				9: 
 					Escribir " introduzca el número 1";
 					leer N1;
@@ -570,7 +572,7 @@ definir A,B,C,X, N1,N2,N3,N4,N5,N6,N7,N8,N9,N10,TOTALSUMA,CANTIDAD,i, NUM  como 
 					leer N8;
 					Escribir " introduzca el número 9";
 					leer N9;
-					Escribir "El resultado de la multiplicación es de:", N1*N1 " ", N2*N2 " ", N3*N3 " ", N4*N4 "",  N5*N5 " ", N6*N6 " " N7*N7 " ",N8*N8 " ", N9*N9 ;
+					Escribir "El resultado de la potencia  es de:", N1*N1 " ", N2*N2 " ", N3*N3 " ", N4*N4 "",  N5*N5 " ", N6*N6 " " N7*N7 " ",N8*N8 " ", N9*N9 ;
 				10: 
 					Escribir " introduzca el número 1";
 					leer N1;
@@ -592,7 +594,7 @@ definir A,B,C,X, N1,N2,N3,N4,N5,N6,N7,N8,N9,N10,TOTALSUMA,CANTIDAD,i, NUM  como 
 					leer N9;
 					Escribir " introduzca el número 10";
 					leer N10;
-					Escribir "El resultado de la multiplicación es de:", N1*N1 " ", N2*N2 " ", N3*N3 " ", N4*N4 "",  N5*N5 " ", N6*N6 " " N7*N7 " ",N8*N8 " ", N9*N9, " ", N10*N10 ;
+					Escribir "El resultado de la potencia es de:", N1*N1 " ", N2*N2 " ", N3*N3 " ", N4*N4 "",  N5*N5 " ", N6*N6 " " N7*N7 " ",N8*N8 " ", N9*N9, " ", N10*N10 ;
 					
 	fin segun 
 	FIN SEGUN 
